@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+	"http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+	<title>Pixels</title>
+	<script src="js/jQuery.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/pixels.js" type="text/javascript" charset="utf-8"></script>
+	
+	<style type="text/css" media="screen">
+		body {
+			background: #CCC;
+			font-family: Verdana;
+			font-size: 10px;
+			margin: 0;
+			padding: 0;
+		}
+		
+		#container {
+			width: 500px;
+			margin: 0 auto;
+		}
+		#board {
+			width: 400px;
+			margin: 0 auto;
+			padding-bottom: 2em;
+		}
+		
+		#board_canvas {
+			padding: 0;
+			margin: 0;
+			width: 400px;
+			height: 400px;
+		}
+	</style>
+</head>
+
+<body>
+	<div id='container'>
+		<div id='header'>
+			<h1>Pixels</h1>
+		</div>
+		<div id='board'>
+			<canvas id='board_canvas' width='400' height='400'></canvas>
+		</div>
+		<div id='footer'>
+			Testing out websockets! yai!
+		</div>
+	</div>
+</body>
+</html>
