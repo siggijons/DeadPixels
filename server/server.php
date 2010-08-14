@@ -1,7 +1,7 @@
 #!/php -q
 <?php  /*  >php -q server.php  */
 
-include('Service.php');
+include('service.php');
 
 error_reporting(E_ALL);
 set_time_limit(0);
